@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aline Essências | Essências, perfumes e aromatizadores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">
+        Loja física e atendimento on-line • Enviamos para todo o Brasil
+    </div>
+
+    <header class="header">
+        <a href="#inicio" class="logo">
+            <img src="imagens/logo.png" alt="Aline Essências">
+        </a>
+
+        <nav class="nav" id="nav">
+            <a href="#produtos">Produtos</a>
+            <a href="#sobre">Sobre nós</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a href="https://wa.me/5518981369810" target="_blank" class="nav-whatsapp">WhatsApp</a>
+        </nav>
+
+        <button class="menu-mobile" id="menuMobile" aria-label="Abrir menu">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-texto">
+                <p class="mini-titulo">ALINE ESSÊNCIAS • PRESIDENTE VENCESLAU</p>
+                <h1>
+                    Essências, perfumes
+                    <span>e aromas para</span>
+                    o seu dia a dia.
+                </h1>
+                <p class="hero-descricao">
+                    Conheça nossa seleção de essências em geral,
+                    difusores, perfumes e produtos para perfumar
+                    a casa e o carro.
+                </p>
+                <a href="#produtos" class="botao-principal">Ver produtos</a>
+                <p class="hero-detalhe">Aromas para quem gosta de casa bem cuidada.</p>
+            </div>
+
+            <div class="hero-imagem">
+                <img src="imagens/hero.jpg" alt="Produtos Aline Essências">
+            </div>
+        </section>
+
+        <section class="beneficios">
+            <div><span>01</span><p>Essências para todos os momentos</p></div>
+            <div><span>02</span><p>Loja física e atendimento on-line</p></div>
+            <div><span>03</span><p>Envios para todo o Brasil</p></div>
+        </section>
+
+        <section class="produtos" id="produtos">
+            <div class="titulo-secao">
+                <div>
+                    <span class="mini-titulo">NOSSO CATÁLOGO</span>
+                    <h2>Conheça nossos produtos.</h2>
+                </div>
+                <p>Consulte as fragrâncias disponíveis e faça seu pedido pelo WhatsApp.</p>
+            </div>
+
+            <div class="filtros">
+                <button class="filtro ativo" data-filter="todos">Todos os aromas</button>
+                <button class="filtro" data-filter="casa">Para a casa</button>
+                <button class="filtro" data-filter="perfume">Perfumes</button>
+                <button class="filtro" data-filter="carro">Para o carro</button>
+                <button class="filtro" data-filter="presente">Para presentear</button>
+            </div>
+
+            <div class="grid-produtos">
+                <article class="produto-card" data-category="casa">
+                    <div class="produto-imagem"><img src="imagens/produto1.jpg" alt="Difusores de ambientes"></div>
+                    <div class="produto-info">
+                        <span>PARA A CASA</span>
+                        <h3>Difusores de ambientes</h3>
+                        <div class="numero">01</div>
+                        <p>Difusores de varetas para ambientes.</p>
+                        <a href="https://wa.me/5518981369810" target="_blank">Consultar produto →</a>
+                    </div>
+                </article>
+
+                <article class="produto-card" data-category="perfume">
+                    <div class="produto-imagem"><img src="imagens/produto2.jpg" alt="Perfumes"></div>
+                    <div class="produto-info">
+                        <span>PARA VOCÊ</span>
+                        <h3>Perfumes</h3>
+                        <div class="numero">02</div>
+                        <p>Consulte as opções de perfumaria disponíveis.</p>
+                        <a href="https://wa.me/5518981369810" target="_blank">Consultar produto →</a>
+                    </div>
+                </article>
+
+                <article class="produto-card" data-category="casa">
+                    <div class="produto-imagem"><img src="imagens/produto3.jpg" alt="Sprays e neutralizadores"></div>
+                    <div class="produto-info">
+                        <span>CUIDADO COM O LAR</span>
+                        <h3>Sprays e neutralizadores</h3>
+                        <div class="numero">03</div>
+                        <p>Home sprays, águas de lençol e neutralizadores.</p>
+                        <a href="https://wa.me/5518981369810" target="_blank">Consultar produto →</a>
+                    </div>
+                </article>
+
+                <article class="produto-card" data-category="casa">
+                    <div class="produto-imagem"><img src="imagens/produto4.jpg" alt="Difusores decorados"></div>
+                    <div class="produto-info">
+                        <span>AROMA & DECORAÇÃO</span>
+                        <h3>Difusores decorados</h3>
+                        <div class="numero">04</div>
+                        <p>Frascos decorados em diferentes modelos.</p>
+                        <a href="https://wa.me/5518981369810" target="_blank">Consultar produto →</a>
+                    </div>
+                </article>
+
+                <article class="produto-card" data-category="presente">
+                    <div class="produto-imagem"><img src="imagens/produto5.jpg" alt="Kits para presente"></div>
+                    <div class="produto-info">
+                        <span>PARA PRESENTEAR</span>
+                        <h3>Kits para presente</h3>
+                        <div class="numero">05</div>
+                        <p>Conjuntos de produtos e frascos decorados.</p>
+                        <a href="https://wa.me/5518981369810" target="_blank">Consultar produto →</a>
+                    </div>
+                </article>
+
+                <article class="produto-card" data-category="carro">
+                    <div class="produto-imagem"><img src="imagens/produto6.jpg" alt="Pingente aromático"></div>
+                    <div class="produto-info">
+                        <span>PARA O CARRO</span>
+                        <h3>Pingente aromático</h3>
+                        <div class="numero">06</div>
+                        <p>Aromatizador para pendurar no carro.</p>
+                        <a href="https://wa.me/5518981369810" target="_blank">Consultar produto →</a>
+                    </div>
+                </article>
+
+                <article class="produto-card" data-category="carro">
+                    <div class="produto-imagem"><img src="imagens/produto7.jpg" alt="Aura Rouge Car Parfum"></div>
+                    <div class="produto-info">
+                        <span>PARA O CARRO</span>
+                        <h3>Aura Rouge — Car Parfum</h3>
+                        <div class="numero">07</div>
+                        <p>Perfume para carro.</p>
+                        <a href="https://wa.me/5518981369810" target="_blank">Consultar produto →</a>
+                    </div>
+                </article>
+
+                <article class="produto-card" data-category="casa">
+                    <div class="produto-imagem"><img src="imagens/produto8.jpg" alt="Difusor Bamboo"></div>
+                    <div class="produto-info">
+                        <span>PARA A CASA</span>
+                        <h3>Difusor Bamboo</h3>
+                        <div class="numero">08</div>
+                        <p>Difusor de varetas com frasco decorado.</p>
+                        <a href="https://wa.me/5518981369810" target="_blank">Consultar produto →</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="chamada-produtos">
+                <p>Gostou de algum produto? Consulte fragrâncias, disponibilidade, valores e entrega pelo WhatsApp.</p>
+                <a href="https://wa.me/5518981369810" target="_blank">Falar no WhatsApp</a>
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="sobre-imagem">
+                <img src="imagens/aline.jpg" alt="Aline Essências">
+            </div>
+
+            <div class="sobre-texto">
+                <span class="mini-titulo">SOBRE NÓS</span>
+                <h2>Conheça a <span>Aline Essências.</span></h2>
+                <p>Somos uma loja de essências, perfumaria e aromatizadores em Presidente Venceslau.</p>
+                <p>Trabalhamos com produtos pensados para transformar pequenos momentos do dia a dia através de aromas especiais para a casa, o carro e também para você.</p>
+                <p>Atendemos em nossa loja física e também on-line, com envio para todo o Brasil.</p>
+                <a href="https://www.instagram.com/alineessencias" target="_blank">Conhecer a loja →</a>
+            </div>
+        </section>
+
+        <section class="depoimentos" id="depoimentos">
+            <div class="titulo-secao">
+                <div>
+                    <span class="mini-titulo">DEPOIMENTOS</span>
+                    <h2>O que nossos clientes dizem.</h2>
+                </div>
+            </div>
+
+            <div class="depoimentos-grid">
+                <div class="depoimento">
+                    <span class="aspas">“</span>
+                    <p>Eu A.M.E.I meu kit novo 😍 Estou apaixonada!!!!</p>
+                    <small>Mensagem recebida pelo WhatsApp</small>
+                </div>
+
+                <div class="depoimento">
+                    <span class="aspas">“</span>
+                    <p>Como eu amo o aroma de manga! Sou tão apaixonada.</p>
+                    <small>Mensagem recebida pelo Instagram</small>
+                </div>
+
+                <div class="depoimento">
+                    <span class="aspas">“</span>
+                    <p>Minha amiga amou o presente ❤️</p>
+                    <small>Mensagem recebida pelo WhatsApp</small>
+                </div>
+            </div>
+        </section>
+
+        <section class="contato">
+            <div>
+                <span class="mini-titulo">ATENDIMENTO</span>
+                <h2>Escolha seus produtos. <span>Fale com a nossa equipe.</span></h2>
+                <a href="https://wa.me/5518981369810" target="_blank" class="botao-claro">Falar no WhatsApp</a>
+            </div>
+
+            <div class="endereco">
+                <span>VENHA NOS VISITAR</span>
+                <p>Av. Dom Pedro II, 510<br>Presidente Venceslau · SP</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Av+Dom+Pedro+II+510+Presidente+Venceslau+SP" target="_blank">Como chegar →</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="imagens/logo.png" alt="Aline Essências">
+        </div>
+        <p>Loja física e atendimento on-line.<br>Enviamos para todo o Brasil.</p>
+        <p class="frase-footer">Transforme sua rotina em momentos inesquecíveis.</p>
+        <div class="redes">
+            <a href="https://www.instagram.com/alineessencias" target="_blank">Instagram</a>
+            <a href="https://wa.me/5518981369810" target="_blank">WhatsApp</a>
+        </div>
+        <span class="copyright">© 2026 Aline Essências</span>
+    </footer>
+
+    <a href="https://wa.me/5518981369810" target="_blank" class="whatsapp-flutuante" aria-label="Falar no WhatsApp">WhatsApp</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
